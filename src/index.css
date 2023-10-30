@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root.light {
+    --primary: #635fc7;
+    --title: #000;
+    --text: rgb(107, 114, 128);
+    --bg-dark: rgb(244, 247, 253);
+    --bg-light: rgb(255, 255, 255);
+}
+:root.dark {
+    --primary: #635fc7;
+    --title: #fff;
+    --text: rgb(192, 192, 192);
+    --bg-dark: rgb(32, 33, 44);
+    --bg-light: rgb(43, 44, 55);
+}
+
+html {
+    background: var(--bg-dark);
+    color: var(--text);
+}

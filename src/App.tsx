@@ -1,9 +1,14 @@
+import {Navbar} from '@/components/layout/Navbar.tsx';
+import {Main} from '@/components/layout/Main.tsx';
+
 function App() {
+
 	return (
-		<div>
-			<h1 className='text-3xl text-pink-700'>Task manager</h1>
+		<div className='p-4'>
+			<Navbar/>
+			<Main/>
 		</div>
-	)
+	);
 }
 
-export default App
+export default App;

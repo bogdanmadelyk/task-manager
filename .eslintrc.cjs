@@ -15,6 +15,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "quotes": ["error", "single"],
-    "indent": ["error", "tab"]
+    "indent": ["error", "tab"],
+    "semi": ["error", "always"],
   },
 }

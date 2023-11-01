@@ -1,6 +1,6 @@
 import {ButtonHTMLAttributes, memo, ReactNode} from 'react';
 import {cva, VariantProps} from 'class-variance-authority';
-import {cn} from '@/utils/helpers/cn.ts';
+import {cn} from '@/shared/lib/helpers/cn.ts';
 
 const buttonVariants = cva(
 	'font-bold border-primary border-[2px] rounded-3xl',
@@ -11,13 +11,13 @@ const buttonVariants = cva(
 				secondary: 'bg-white text-primary dark:border-white',
 			},
 			size: {
-				small: 'text-sm py-2 px-4',
-				medium: 'text-md py-2 px-5',
-				large: 'text-xl py-3 px-6',
+				sm: 'text-sm py-2 px-4',
+				md: 'text-md py-2 px-5',
+				lg: 'text-xl py-3 px-6',
 			},
 		},
 		defaultVariants: {
-			size: 'medium',
+			size: 'md',
 			variant: 'primary',
 		},
 	}

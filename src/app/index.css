@@ -5,6 +5,7 @@
 :root.light {
     --primary: #635fc7;
     --title: #000;
+    --border: #d2d2d2;
     --text: rgb(107, 114, 128);
     --bg-dark: rgb(244, 247, 253);
     --bg-light: rgb(255, 255, 255);
@@ -12,6 +13,7 @@
 :root.dark {
     --primary: #635fc7;
     --title: #fff;
+    --border: rgb(60, 60, 60);
     --text: rgb(192, 192, 192);
     --bg-dark: rgb(32, 33, 44);
     --bg-light: rgb(43, 44, 55);

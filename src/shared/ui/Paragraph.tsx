@@ -1,15 +1,15 @@
 import {memo, ReactNode} from 'react';
 import {cva, VariantProps} from 'class-variance-authority';
-import {cn} from '@/utils/helpers/cn.ts';
+import {cn} from '@/shared/lib/helpers/cn.ts';
 
 const paragraphVariants = cva(
 	'',
 	{
 		variants: {
 			size: {
-				small: 'text-sm',
-				medium: 'text-md',
-				large: 'text-xl',
+				sm: 'text-sm',
+				md: 'text-md',
+				lg: 'text-xl',
 			},
 			variant: {
 				primary: 'text-primary',
@@ -18,7 +18,7 @@ const paragraphVariants = cva(
 			}
 		},
 		defaultVariants: {
-			size: 'medium',
+			size: 'md',
 			variant: 'default'
 		}
 	}

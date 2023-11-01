@@ -11,6 +11,7 @@ export default {
 				'primary': 'var(--primary)',
 				'title': 'var(--title)',
 				'text': 'var(--text)',
+				'border': 'var(--border)',
 				'bg-dark': 'var(--bg-dark)',
 				'bg-light': 'var(--bg-light)'
 			}

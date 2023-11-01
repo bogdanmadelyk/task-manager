@@ -1,5 +1,5 @@
 import {memo, ReactNode} from 'react';
-import {cn} from '@/utils/helpers/cn.ts';
+import {cn} from '@/shared/lib/helpers/cn.ts';
 import {cva, VariantProps} from 'class-variance-authority';
 
 const titleVariants = cva(
@@ -7,9 +7,9 @@ const titleVariants = cva(
 	{
 		variants: {
 			size: {
-				small: 'text-xl',
-				medium: 'text-2xl',
-				large: 'text-3xl',
+				sm: 'text-xl',
+				md: 'text-2xl',
+				lg: 'text-3xl',
 			},
 			variant: {
 				primary: 'text-primary',
@@ -18,7 +18,7 @@ const titleVariants = cva(
 			}
 		},
 		defaultVariants: {
-			size: 'medium',
+			size: 'md',
 			variant: 'default'
 		}
 	}
